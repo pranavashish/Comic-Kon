@@ -22,9 +22,9 @@ body {
   scale: 0.9;
   font-size: 1.7rem;
   min-height: 100vh;
-  background: var(--grey-color);
-  /* background: -o-linear-gradient(281deg, #f64445 0%, #611cac 100%);
-    background: linear-gradient(169deg, #f64445 0%, #611cac 100%); */
+  background-image: url(./images/939bebec5eb59fefcb15850e20fffecd.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
   line-height: 1.6;
   font-family: var(--poppins-font);
   display: -webkit-box;
@@ -66,10 +66,7 @@ input {
 li {
   list-style-type: none;
 }
-img {
-  width: 100%;
-  display: block;
-}
+
 .main-wrapper {
   max-width: 1280px;
   width: 100%;
@@ -77,12 +74,19 @@ img {
 }
 .app {
   background-color: var(--dark-color);
+  opacity: 94%;
   margin: 2rem;
   padding: 5rem;
   border-radius: 6px;
   color: #fff;
   -webkit-box-shadow: 0px 5px 11px 0px rgba(0, 0, 0, 0.5);
   box-shadow: 0px 5px 11px 0px rgba(0, 0, 0, 0.5);
+}
+
+img {
+  width: 100%;
+  display: block;
+  opacity: 100%;
 }
 .app-header {
   display: -webkit-box;
